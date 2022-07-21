@@ -26,7 +26,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 	private String[] openResources = new String[]{
 			"/css/**","/icons/**","/img/**","/js/**","/layer/**","/","/index","/person/recovery-password",
 			"/auth/**",URL_SIGNUP_POST,URL_SIGNUP_V2_POST,"/","/generate-data", "/favicon.ico","/alert-websocket/**",
-			"/gs-guide-websocket/**"
+			"/gs-guide-websocket/**","/person/**"
     }; //, "/app","/topic","/hello","/topic/**"
 	
 	private String[] securedResources = new String[] {"/secured/**/**", "/secured/success", "/secured/socket", "/secured/success"};
